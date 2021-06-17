@@ -1,0 +1,473 @@
+body{
+    margin: 0;
+    font-family: system-ui;
+}
+.parallax{
+    background-image: url("Images/Background.jpg");
+    height: max-content;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax1{
+    height: max-content;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.page-title{
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: white;
+    padding: 50px;
+    font-variant: small-caps;
+    font-size: 100px;
+    font-family: fantasy;
+    letter-spacing: 20px;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.menu{
+    background: #ed0909;
+    text-align: center;
+}
+.menu-ul{
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+.menu-ul li{
+    font-size: 17px;
+    list-style: none;
+    display: inline-block;
+    padding: 25px 25px 26px 25px;
+}
+.a-menu{
+    text-decoration: none;
+    color: white;
+}
+.a-links{
+    text-decoration: none;
+    color: white;
+}
+.menu-ul li:hover{
+    background: #eb7a7a;
+    transform: scale(1.1);
+}
+.search-box{
+    border: 1px solid white;
+    border-radius: 50px;
+    background: white;
+    width: max-content;
+    display: inline-block;
+    margin: 8px;
+}
+.search-box:hover{
+    box-shadow: 0 0 10px 2px #eb7a7a;
+    border: 1px solid #eb7a7a;
+}
+.search-input{
+    width: 250px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    background: transparent;
+    margin: 15px 0 0 10px;
+}
+i{
+    font-size: 20px;
+    margin: 0 10px 0 0;
+}
+button{
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.banner
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+.imgBx{
+    position: relative;
+    width: 100%;
+    /*min-height: 300px;*/
+    height: 100%;
+}
+.banner
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('Images/Cosat.jpg');
+    background-size: cover;
+}
+.banner .content{
+    font-size: 10px;
+    color: black;
+}
+.banner .content p{
+     font-size: 20px;
+     color: black;
+}
+.btn{
+    font-size: 15px;
+    color: #fff;
+    background: tomato;
+    display: inline-block;
+    padding: 5px 10px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+.btn:hover{
+    letter-spacing: 6px;
+}
+.product-remove{
+    right: 20px;
+    padding: 10px 25px;
+    background-color: aqua;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.product-remove:hover{
+    background-color: white;
+    color: aqua;
+    font-weight: 600;
+    border: 1px solid aqua;
+}
+.container{
+    margin: 50px 50px 50px 5%;
+    width: 90%;
+    text-align: center;
+}
+.deals-container{
+    margin: 50px 50px 50px 5%;
+    width: 90%;
+    text-align: center;
+}
+.items{
+    width: max-content;
+    margin: 25px;
+    border: 1px solid #ed0909;
+    border-radius: 0 0 50px 50px;
+    display: inline-block;
+}
+.items:hover{
+    box-shadow: 0 0 10px 3px #ed0909;
+}
+
+.categories{
+    width: max-content;
+    margin: 25px;
+    border: 1px solid #ed0909;
+    border-radius: 0 0 50px 50px;
+    display: inline-block;
+}
+.categories:hover{
+    box-shadow: 0 0 10px 3px #ed0909;
+}
+.item-image{
+    height: 200px;
+    width: 200px;
+    border-radius: 0 0 50px 50px;
+    padding: 10px;
+}
+.image-title{
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+.title{
+    padding: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+}
+.deal{
+    padding: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin: 20px;
+    max-width: 20%;
+    background: linear-gradient(120deg,#16817a 20%,#cee397 50%,#f5160a 80%);
+}
+.coupon-btn{
+    border: 1px solid white;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.coupon-btn:hover{
+    box-shadow: 0 0 10px 5px white inset;
+}
+.images{
+    display: inline-block;
+}
+.item-image-size{
+    height: 200px;
+    width: 300px;
+    padding: 5px;
+}
+.description{
+    margin: 20px;
+    min-height: 100px;
+}
+.item-select{
+    margin: 10px 0 0 0;
+}
+.buynow-btn{
+    border: 1px solid #ed0909;
+    background: #ed0909;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: white;
+}
+.buynow-btn:hover{
+    border: 1px solid #eb7a7a;
+    box-shadow: 0 0 10px 5px #eb7a7a inset;
+}
+.container1{
+    position: relative;
+    width: 400px;
+    background: red;
+    padding: 5px 10px;
+    border: 1px solid tomato;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container .post{
+    display: none;
+}
+.container1 .text{
+    font-size: 25px;
+    color: #666;
+    font-weight: 500;
+}
+.container1 .edit{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    font-size: 16px;
+    color: #666;
+    font-weight: 500;
+    cursor: pointer;
+}
+.container1 .edit:hover{
+    text-decoration: underline;
+}
+.container1 .star-widget input{
+    display: none;
+}
+.star-widget label{
+    font-size: 40px;
+    color: #444;
+    padding: 10px;
+    float: right;
+    transition: all 0.2s ease;
+}
+input:not(:checked) ~ label:hover,
+input:not(:checked) ~ label:hover ~ label{
+    color: #fd4;
+}
+input:checked ~ label{
+    color: #fd4;
+}
+input#rate-5:checked ~ label{
+    color: #fe7;
+    text-shadow: 0 0 20px #952;
+}
+#rate-1:checked ~ form header:before{
+    content: "It is horrible😠";
+}
+#rate-2:checked ~ form header:before{
+    content: "I don't like it😞";
+}
+#rate-3:checked ~ form header:before{
+    content: "I just like it😌";
+}
+#rate-4:checked ~ form header:before{
+    content: "It is awesome😄";
+}
+#rate-5:checked ~ form header:before{
+    content: "I like it very much😍";
+}
+.container1 form{
+  display: none;
+}
+input:checked ~ form{
+    display: block;
+}
+form header{
+    width: 100%;
+    font-size: 20px;
+    color: #fe7;
+    font-weight: 500;
+    margin: 5px 0 20px 0;
+    text-align: center;
+    transition: all 0.2s ease;
+}
+form .textarea{
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+}
+form .textarea textarea{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #222;
+    border: 1px solid #333;
+    background: #eee;
+    padding 10px;
+    font-size: 17px;
+    resize: none;
+}
+form btn{
+    height: 45px;
+    width: 100%;
+    margin: 15px 0;
+}
+form .btn button{
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    outline: none;
+    background: black;
+    color: #999;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+form .btn button:hover{
+    background: #1b1b1b;
+}
+
+
+
+.parallax1{
+    background-image: url(Images/FOOTER.jpg);
+}
+.footer{
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 20px;
+}
+.quick-links{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    min-width: 30%;
+}
+.quick-links ul{
+    padding: 0;
+}
+.quick-links li{
+    list-style: none;
+    padding: 10px;
+    font-weight: 300;
+}
+.a-links:hover{
+    color: #eb7a7a;
+}
+.copyrights{
+    font-size: 16px;
+    font-family: verdana, arial, helvecita, sans-serif;
+    text-align: center;
+    margin: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
