@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>Username Constraint</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+    <div class="form-box">
+        <h1>Login Here</h1>
+        <div class="input-box">
+            <i class="fa fa-id-badge"></i> 
+            <input type="username" placeholder="Username">
+        </div>
+        <div class="input-box">
+            <i class="fa fa-key"></i>
+            <input type="password" placeholder="Password" id="myInput">
+            <span class="eye" onclick="myFunction()">
+                <i id="hide1" class="fa fa-eye"></i>
+                <i id="hide2" class="fa fa-eye-slash"></i>
+            </span>
+        </div>
+         <div class="password-policies">
+                <div class="policy-length">
+                    8 characters
+                </div>
+                <div class="policy-number">
+                    Contains Numbers
+                </div>
+                <div class="policy-number">
+                    Contains Uppercase
+                </div>
+                <div class="policy-number">
+                    Contains Special Characters
+                </div>
+            </div>
+        <button type="button" class="login-btn">LOGIN</button>
+    </div>
+        
+        <script>
+            function myFunction(){
+                var x = document.getElementById("myInput");
+                var y = document.getElementById("hide1");
+                var z = document.getElementById("hide2");
+                
+                if(x.type === 'password'){
+                    x.type = "text";
+                    y.style.display = "block";
+                    z.style.display = "none";
+                }
+                else{
+                    x.type = "password";
+                    y.style.display = "none";
+                    z.style.display = "block";
+                }
+            }
+        </script>
+    </body>
+</html>
